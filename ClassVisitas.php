@@ -32,8 +32,8 @@ class ClassVisitas extends ClassConexao{
                 $this->InserindoVisitas();
             }
         }
-        #echo "ZIMBRA WEB - PREFEITURA DE NOVA LIMA: ".$Select->rowCount()."";
-        #echo "<h1>ZIMBRA PREFEITURA DE NOVA LIMA"</h1>";
+        #echo "Nome da Empresa fictícia: ".$Select->rowCount()."";
+        #echo "<h1>Nome da Empresa Ficitícia"</h1>";
     }
 
     #Inseri a visita no banco de dados

@@ -2,7 +2,7 @@
 $login = $_POST['login'];
 $entrar = $_POST['entrar'];
 $senha = md5($_POST['senha']);
-$connect = mysqli_connect('localhost','root','R2D2C3PO', 'sistema');
+$connect = mysqli_connect('localhost','user','senha', 'db_name');
 
   if (isset($entrar)) {
 

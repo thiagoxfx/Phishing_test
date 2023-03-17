@@ -2,7 +2,7 @@
 
 $login = $_POST['login'];
 $senha = MD5($_POST['senha']);
-$connect = mysqli_connect('localhost','root','R2D2C3PO', 'sistema');
+$connect = mysqli_connect('localhost','user','password', 'sistema');
 
 $query_select = "SELECT login FROM usuarios WHERE login = '$login'";
 $select = mysqli_query($connect, $query_select);

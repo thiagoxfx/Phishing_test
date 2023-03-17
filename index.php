@@ -28,6 +28,6 @@ $Visitas->VerificaUsuario();
     }else{
       echo"Bem-Vindo usuario da Empresa ficitícia <br>";
       echo"Para não perder sua conta<font color='red'> ALTERE SUA SENHA IMEDIATAMENTE</font> clicando no link abaixo";
-      echo"<br><a href='cadastro.html'>Alterar senha Zimbra</a>";
+      echo"<br><a href='cadastro.html'>Alterar senha Webmail </a>";
     }
 ?>
